@@ -135,7 +135,7 @@ const questions = [
     question: "The book, Gone With the Wind, ______ by Margaret Mitchell.",
     options: ["wrote", "was written", "are written", "were written"],
     correctAnswer: 1
-  }
+  },
   {
     question: "My children _____ with their homework.",
     options: ["helped", "help", "are helping", "aren’t helped"],
