@@ -1,9 +1,29 @@
 // Define questions and answers
 const questions = [
   
-  {
+{
     question: "English _________ all over the world.",
     options: ["speaks", "is spoken", "was spoken", "has been spoken"],
+    correctAnswer: 1
+  },
+  {
+    question: "When did Fatih Sultan conquer Istanbul? Istanbul ________________ by Fatih Sultan in 1453.",
+    options: ["was conquered", "conquered", "be conquered", "is conquered"],
+    correctAnswer: 0
+  },
+  {
+    question: "Turkish is __________ in Turkey.",
+    options: ["speaks", "spoke", "spoken", "be spoken"],
+    correctAnswer: 2
+  },
+  {
+    question: "Alemu: Who wrote “War and Peace”?\nBacha: It _________ by Leo Tolstoy.",
+    options: ["is written", "wrote", "writes", "was written"],
+    correctAnswer: 3
+  },
+  {
+    question: "That film has __________ on TV.",
+    options: ["showed", "been shown", "shown", "showing"],
     correctAnswer: 1
   },
   {
@@ -135,71 +155,6 @@ const questions = [
     question: "The book, Gone With the Wind, ______ by Margaret Mitchell.",
     options: ["wrote", "was written", "are written", "were written"],
     correctAnswer: 1
-  },
-  {
-    question: "My children _____ with their homework.",
-    options: ["helped", "help", "are helping", "aren’t helped"],
-    correctAnswer: 1
-  },
-  {
-    question: "_______________________________ last night?",
-    options: ["Have the plants been watered", "Did the plants water", "Were the plants watered", "Are they watered"],
-    correctAnswer: 2
-  },
-  {
-    question: "Driving should _____ in city centers.",
-    options: ["ban", "be banned", "banned", "being ban"],
-    correctAnswer: 1
-  },
-  {
-    question: "America _____ by Christopher Columbus.",
-    options: ["has discovered", "have discovered", "had been discovered", "was discovered"],
-    correctAnswer: 3
-  },
-  {
-    question: "The house is going _____.",
-    options: ["to knock down", "to be knocked down", "to been knocked down", "knocking down"],
-    correctAnswer: 1
-  },
-  {
-    question: "If I ____ younger, I ____ to play the piano, but I’m too old now.",
-    options: ["am / will learn", "will be / are learning", "were / would", "were / would learn"],
-    correctAnswer: 3
-  },
-  {
-    question: "If I _____ Prime Minister, I _____ increase tax for rich people.",
-    options: ["would be / shall", "will be / will", "am / would", "were / would"],
-    correctAnswer: 3
-  },
-  {
-    question: "If I _____ in a big house, I _____ a party.",
-    options: ["lived / would have", "am / am having", "will live / have", "would live / will have"],
-    correctAnswer: 0
-  },
-  {
-    question: "If she _____ a lot of clothes, she _____ money.",
-    options: ["bought / would have", "would buy / has", "wouldn’t bought / had", "didn’t buy / would have"],
-    correctAnswer: 0
-  },
-  {
-    question: "If he _____ a watch, he _____ always late.",
-    options: ["will have / won’t be", "had / isn’t", "has / is", "had / wouldn’t be"],
-    correctAnswer: 3
-  },
-  {
-    question: "They _____ their baby Lily, but they aren’t sure yet.",
-    options: ["will call", "are calling", "call", "might call"],
-    correctAnswer: 3
-  },
-  {
-    question: "I’d visit you more often if you _____ so far away.",
-    options: ["will be living", "didn’t live", "don’t live", "wouldn’t live"],
-    correctAnswer: 1
-  },
-  {
-    question: "If I _____ perfect English, I _____ in this class.",
-    options: ["could spoke / won’t be", "can speak / would be", "could speak / wouldn’t be", "can’t speak / will not"],
-    correctAnswer: 2
   }
 ];
     // Add more questions here...
