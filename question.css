@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4e73df;
+    padding: 15px 30px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .timer {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .timer i {
+    margin-right: 8px;
+  }
+  
+  /* Question Box */
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .question-box {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 30px 40px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .option {
+    background-color: #fff;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: #f8f9fa;
+  }
+  
+  /* Green and Red Colors for Answer */
+  .option.correct {
+    background-color: #28a745;  /* Green for correct */
+    color: white;
+  }
+  
+  .option.incorrect {
+    background-color: #dc3545;  /* Red for incorrect */
+    color: white;
+  }
+  
