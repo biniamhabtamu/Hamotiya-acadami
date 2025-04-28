@@ -64,7 +64,7 @@ const questions = [
   {
     question: "The main argument of strong cognitivism's non-naturalism is:",
     options: ["A moral judgment is rendered true or false by a natural state of affairs", "There are really no moral facts and moral properties exist", "Moral properties are identical to or reducible to natural properties", "Moral facts are independent of human opinion"],
-    correctAnswer: 4 // ⚠ Correction: no "option 4" — so this should match to option 3, actually: "Moral facts are independent of human opinion"
+    correctAnswer: 3 // ⚠ Correction: no "option 4" — so this should match to option 3, actually: "Moral facts are independent of human opinion"
   },
   {
     question: "According to virtue ethics, the fundamental moral question is:",
