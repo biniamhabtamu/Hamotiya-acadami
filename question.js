@@ -70,7 +70,61 @@ const questions = [
     ],
     correctAnswer: 0
   },
-  
+  {
+    question: "Under ethical ___________ objective moral principles can be rationally determined, while under ___________ morality is both context-dependent and subjective.",
+    options: ["Normativity, Relativism", "Relativism, Absolutism", "Absolutism, Relativism", "Absolutism, Normativity"],
+    correctAnswer: 2 // "Absolutism, Relativism"
+  },
+  {
+    question: "In ___________ political culture, citizens are endowed with low cognitive, affective, and evaluative orientation towards the political system. This contrasts with ___________ culture where citizens have both the competences and the will to engage in politics.",
+    options: ["Parochial, Participant", "Participant, Subject", "Subject, Parochial", "Subject, Participant"],
+    correctAnswer: 0 // "Parochial, Participant"
+  },
+  {
+    question: "Deontological theories define a morally right action in terms of:",
+    options: ["Its consequences", "Its conformity to certain moral rules", "The virtuousness of the agent", "The costs and benefits of the action"],
+    correctAnswer: 1 // "Its conformity to certain moral rules"
+  },
+  {
+    question: "According to Socrates, virtue is:",
+    options: ["Knowledge", "Excellence of a thing", "Justice", "Avoiding extremes"],
+    correctAnswer: 0 // "Knowledge"
+  },
+  {
+    question: "In judging the conduct or action of human beings, we have to take into consideration all of the following, except:",
+    options: ["The moral situation of the agent", "The consequences", "The means", "None"],
+    correctAnswer: 3 // "None"
+  },
+  {
+    question: "Among the following ethical theories, one holds that internal and mind pleasure is better than bodily pleasure:",
+    options: ["Epicureanism", "Psychological Egoism", "Cyrenaicism", "None"],
+    correctAnswer: 0 // "Epicureanism"
+  },
+  {
+    question: "One is not an applied ethical issue:",
+    options: ["Abortion", "Euthanasia", "Establishing School", "Owning Weapon"],
+    correctAnswer: 2 // "Establishing School"
+  },
+  {
+    question: "In Bentham’s hedonic calculus, the term extent refers to:",
+    options: ["How near at hand pleasure is", "How likely pleasure is to occur", "The number of people affected by pleasure", "Its freedom from pain"],
+    correctAnswer: 2 // "The number of people affected by pleasure"
+  },
+  {
+    question: "Which ethical theory adopts the principle “the means justifies the end”?",
+    options: ["Altruism", "Utilitarianism", "Egoism", "Categorical Imperative"],
+    correctAnswer: 1 // "Utilitarianism"
+  },
+  {
+    question: "One is not the objective of teaching civics and ethical education:",
+    options: ["The need for democracy", "The need to build peace", "The need for religion", "All"],
+    correctAnswer: 2 // "The need for religion"
+  },
+  {
+    question: "When J.S. Mill advocates “greatest balance of happiness for the greatest number of people,” the term greatest refers to:",
+    options: ["The best", "The most", "The least", "Too much"],
+    correctAnswer: 1 // "The most"
+  }
 ];
     // Add more questions here...
 
