@@ -1,5 +1,101 @@
 // Define questions and answers
 const questions = [
+    {
+    question: "Which one of the following statements BEST describes civic education?",
+    options: [
+      "A way of learning for effective participation in a democratic and development process.",
+      "The study of the rights and responsibilities of citizens or a politically organized group of people.",
+      "The knowledge of the constitutions, the principles, values, history, and application to contemporary life.",
+      "The process of helping young people acquire and learn to use the skills, knowledge, and attitudes."
+    ],
+    correctAnswer: 0 // "A way of learning for effective participation in a democratic and development process."
+  },
+  {
+    question: "Which of the following statements is NOT true about Ethics?",
+    options: [
+      "It also explores the meaning and the ranking of different ethical values.",
+      "The critical examination and evaluation of what is good, evil, right, and wrong in human conduct.",
+      "Ethics is a subject being studied by morality.",
+      "Ethics is a specific set of principles, values, and guidelines for a particular group or organization."
+    ],
+    correctAnswer: 2 // "Ethics is a subject being studied by morality." (This is NOT true.)
+  },
+  {
+    question: "Which of the following is true about morality?",
+    options: [
+      "Morality is the code of conduct one follows.",
+      "It is a complex concept when viewed from different perspectives.",
+      "Morality is norms or codes which study about morality, moral principles, and moral decision making.",
+      "Morality is a discipline that studies about ethics.",
+      "A and B"
+    ],
+    correctAnswer: 4 // "A and B" (Both statements A and B are true)
+  },
+  {
+    question: "In which of the following political cultures do citizens have high cognitive, affective, and evaluative orientation towards the political system, but the level of participation is still minimal?",
+    options: [
+      "Subject Culture",
+      "Parochial Culture",
+      "Authoritative Culture",
+      "Participant Political Culture"
+    ],
+    correctAnswer: 0 // "Subject Culture"
+  },
+   {
+    question: "Aristotle's ethical approach is best characterized as:",
+    options: ["Natural Right Theory", "Virtue Ethics", "Deontological Ethics", "Consequentialism"],
+    correctAnswer: 1 // "Virtue Ethics"
+  },
+  {
+    question: "As per Ross's list of prima facie duties, duties of fidelity imply:",
+    options: ["The duty to make compensation", "The duty to keep promises and the obligation not to lie", "Duty to thank those who helped us", "The duty to improve the condition of others"],
+    correctAnswer: 1 // "The duty to keep promises and the obligation not to lie"
+  },
+  {
+    question: "Which one of the following is true about Cognitivism?",
+    options: ["Moral judgments are capable of being true or false", "Moral judgments express non-cognitive states", "Desires and emotions are not truth-apt", "Moral judgments are not capable of being right or wrong"],
+    correctAnswer: 0 // "Moral judgments are capable of being true or false"
+  },
+  {
+    question: "The branch of ethics that is named as prescriptive ethics is:",
+    options: ["Normative Ethics", "Non-normative Ethics", "Meta-ethics", "Scientific Ethics"],
+    correctAnswer: 0 // "Normative Ethics"
+  },
+  {
+    question: "The main argument of strong cognitivism's non-naturalism is:",
+    options: ["A moral judgment is rendered true or false by a natural state of affairs", "There are really no moral facts and moral properties exist", "Moral properties are identical to or reducible to natural properties", "Moral facts are independent of human opinion"],
+    correctAnswer: 4 // ⚠ Correction: no "option 4" — so this should match to option 3, actually: "Moral facts are independent of human opinion"
+  },
+  {
+    question: "According to virtue ethics, the fundamental moral question is:",
+    options: ["What kinds of things are intrinsically good?", "What kind of person should I be?", "What is the right thing to do?", "What would benefit most?"],
+    correctAnswer: 1 // "What kind of person should I be?"
+  },
+  {
+    question: "Morality must be the effort to create democratic citizens who know the difference between moral rightness and moral wrongness. The theory that advocates 'Morality originates with God' is:",
+    options: ["Divine Command Theory", "Utilitarianism Theory", "Democratic Theory", "Egoism Theory"],
+    correctAnswer: 0 // "Divine Command Theory"
+  },
+  {
+    question: "Among ethical approaches, which one studies the existence of moral facts?",
+    options: ["Deontological Ethics", "Teleological Ethics", "Meta-ethical Approach", "Categorical Ethics"],
+    correctAnswer: 2 // "Meta-ethical Approach"
+  },
+  {
+    question: "Which of the following is NOT the goal of teaching moral and citizenship education?",
+    options: ["To create citizens who care about others", "To bring responsible individuals while making decisions", "To create citizens who fail to ask for their rights and discharge their obligations", "To produce individuals who respect diversity"],
+    correctAnswer: 2 // "To create citizens who fail to ask for their rights and discharge their obligations"
+  },
+  {
+    question: "Which one is correctly matched?",
+    options: ["Deontological Theory — Immanuel Kant", "Consequentialism Theory — Jeremy Bentham", "Deontological Theory — John Stuart Mill", "William D. Ross — Teleological Theory"],
+    correctAnswer: 0 // "Deontological Theory — Immanuel Kant"
+  },
+  {
+    question: "According to the deontological theory of ethics, a given action is a moral action if:",
+    options: ["It produces a good outcome", "It is based on the duty and rule", "It benefits others except the actor", "It accomplishes its function"],
+    correctAnswer: 1 // "It is based on the duty and rule"
+  },
    {
     question: "As per ethical egoism, how ought we to act?",
     options: [
