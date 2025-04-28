@@ -29,7 +29,7 @@ const questions = [
       "Morality is a discipline that studies about ethics.",
       "A and B"
     ],
-    correctAnswer: 4 // "A and B" (Both statements A and B are true)
+    correctAnswer: 3 // "A and B" (Both statements A and B are true)
   },
   {
     question: "In which of the following political cultures do citizens have high cognitive, affective, and evaluative orientation towards the political system, but the level of participation is still minimal?",
